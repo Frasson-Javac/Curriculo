@@ -1,15 +1,17 @@
 
 
 body{
-    background-color:red;
+    background-color:black;
+    background-image: url(./img/—Pngtree—creative\ company_1420804.png );
+    background-size: 400px;
+    background-repeat:no-repeat; /* ñ repete a imagem ou vc pode escolher  repeat-x ou repeat-y;*/
+    background-attachment:fixed; /*imagem fixa como plano de fundo fica para ou scroll ele acompanha a barra de rolagem */
+    background-position: center ;/*ventalisa );*/
 }
 #Cabecalho {
     text-align: center;
-    border-width: 2px;
-    border-color: blue;
-    border-style: solid;
-
-}
+   
+   }
 
 .img {
     
@@ -17,10 +19,41 @@ body{
 }
 
 
-.fontpatten{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+.fontpattenTitulos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    font-size: 20px;
+    
+    color: white;
+    
+    font-weight: 200;
 
+}
+
+.fontpatten{
+   
+    
+    font-size: 16px;
+   
+    color:white;
+    font-weight: 200;
+
+}
+
+.bordertopo{
+    
+    background-color:#faf9f5;
+    border-color:gold;
+    border-style: solid;
+    border-width: 3px;
+    background-image: url(./img/—Pngtree—astronaut\ in\ spacesuit\ on\ space_5057901.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 115px;
+    background-position-x: left;
+    background-position-y:12px ;
+    
 }
 
 
@@ -28,5 +61,9 @@ body{
 
 p {
     line-height: 1.5;
+
     
+    font-size: 15px;
+    color:white;
+   
 }
