@@ -1,72 +1,59 @@
-
-
-body{
-    background-color:black;
-   
-  
+body {
+    background-color: black;
     background-size: 400px;
-    background-repeat:no-repeat; /* ñ repete a imagem ou vc pode escolher  repeat-x ou repeat-y;*/
-    background-attachment:fixed; /*imagem fixa como plano de fundo fica para ou scroll ele acompanha a barra de rolagem */
-    background-position: center ;/*ventalisa );*/
+    background-repeat: no-repeat;
+    /* ñ repete a imagem ou vc pode escolher  repeat-x ou repeat-y;*/
+    background-attachment: fixed;
+    /*imagem fixa como plano de fundo fica para ou scroll ele acompanha a barra de rolagem */
+    background-position: center;
+    /*ventalisa );*/
 }
+
 #Cabecalho {
     text-align: center;
-   
-   }
+    font-size: 35;
+}
 
 .img {
-    
     width: 45;
 }
 
-
-.fontpattenTitulos{
+.fontpattenTitulos {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    
-    font-size: 20px;
-    
+    font-size: 32px;
+    background-color: white;
+    color: black;
+    font-weight: 200;
+}
+
+.fontpatten {
+    font-size: 25px;
     color: white;
-    
     font-weight: 200;
-
 }
 
-.fontpatten{
-   
-    
-    font-size: 16px;
-   
-    color:white;
-    font-weight: 200;
-
-}
-
-.bordertopo{
-    
-    background-color:#faf9f5;
-    border-color:gold;
+.bordertopo {
+    background-color: #faf9f5;
+    border-color: gold;
     border-style: solid;
     border-width: 3px;
-   
     background-image: url(./img/—Pngtree—astronaut\ in\ spacesuit\ on\ space_5057901.png);
-   
     background-attachment: initial;
     background-repeat: no-repeat;
     background-size: 115px;
     background-position-x: left;
-  
-    
 }
 
-
-
+.rodape {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    font-weight: bold;
+}
 
 p {
     line-height: 1.5;
-
-    
     font-size: 15px;
-    color:white;
-   
+    color: white;
 }
