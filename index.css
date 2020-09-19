@@ -1,54 +1,116 @@
+/*
+selção por atributos
+
+Elemento[atributo="valor] -->seleciona elementos cujo atributo é igual o valor
+Elemento[atributo^="valor-->seleciona elementos cujo atributo inicia com o valor
+Elemento[atributo$="valor-->seleciona elementos cujo atributo termina com o valor
+Elemento[atributo*="valor-->seleciona elementos contenha o elemento igual o valor
+
+
+seleção por posiçao
+
+
+(tipo)div:nth-child(1)  seleciona o enezimo filho  de cima para baixo
+ {
+
+ }
+
+ div:last-child  seleciona o enezimo filho  de baixo para cima
+ {
+
+ }
+
+
+ li:nth-of-type(1) {   vai pegar qualquer tipo  ,aqui esá usando uma list intem començando do primeiro
+
+
+ }
+
+ li:nth-last-of-type(){     vai pegar qualquer tipo  ,aqui esá usando uma list intem cameçando do ultimo
+
+ 
+ }
+
+
+ seletores de unicidade
+
+ p:only-child{   paragrafo filho unico
+ }
+
+ ul:only-of-type {  unico do tipo na pag inteira 
+ }
+
+
+ Seletores por estado 
+
+
+ :target{   usado m ancoras 
+
+
+
+
+ }
+
+
+*/
+
 body {
-    background-color: black;
     background-size: 400px;
-    background-repeat: no-repeat;
-    /* ñ repete a imagem ou vc pode escolher  repeat-x ou repeat-y;*/
-    background-attachment: fixed;
-    /*imagem fixa como plano de fundo fica para ou scroll ele acompanha a barra de rolagem */
-    background-position: center;
-    /*ventalisa );*/
 }
 
-#Cabecalho {
-    text-align: center;
+.topotext {
     font-size: 35;
+    text-align: center;
 }
 
-.img {
-    width: 45;
+h2 {
+    text-align: center;
 }
 
-.fontpattenTitulos {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 32px;
-    background-color: white;
+img {
+    width: 90px;
+}
+
+#fonteTitulos {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: gray;
     color: black;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .fontpatten {
     font-size: 25px;
-    color: white;
+    color: black;
     font-weight: 200;
 }
 
-.bordertopo {
-    background-color: #faf9f5;
-    border-color: gold;
-    border-style: solid;
-    border-width: 3px;
-    background-image: url(./img/—Pngtree—astronaut\ in\ spacesuit\ on\ space_5057901.png);
-    background-attachment: initial;
-    background-repeat: no-repeat;
-    background-size: 115px;
-    background-position-x: left;
+li {
+    font-size: 25px;
+    color: black;
+    font-weight: 200;
+}
+
+#topo {
+    height: 135px;
+}
+
+.top1 {
+    width: 85%;
+    float: right;
+}
+
+.top2 {
+    border: brown;
+    float: left;
+    padding-left: 25px;
 }
 
 .rodape {
     text-align: center;
-    color: white;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10;
+    font-size: 8pt;
     font-weight: bold;
 }
 
