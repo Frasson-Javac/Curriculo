@@ -1,2 +1,2 @@
 # Curriculo
-https://frasson-javac.github.io/Curriculo/
+https://frasson-javac.github.io/Curriculo/.
